@@ -77,32 +77,20 @@
 
     // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyD0YT3u-r7R53h2rtPO0FYMM1rrv9Xbl4M",
-      authDomain: "ordem-ficha.firebaseapp.com",
-      projectId: "ordem-ficha",
-      storageBucket: "ordem-ficha.appspot.com",
-      messagingSenderId: "543944476352",
-      appId: "1:543944476352:web:56edc79e7af373b5354f25"
-    };
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-  </script>
+  apiKey: "AIzaSyDTRjp0DkLYY6vKDaOh4CUQzJ4EIsdVo-k",
 
-  <script>
-    var serviceWorkerVersion = '828624400';
-    var scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
-      scriptLoaded = true;
-      var scriptTag = document.createElement("script");
-      scriptTag.src = "main.dart.js";
-      scriptTag.type = "application/javascript";
-      document.body.append(scriptTag);
-    }
+  authDomain: "fichasc2-3cbd8.firebaseapp.com",
 
+  projectId: "fichasc2-3cbd8",
+
+  storageBucket: "fichasc2-3cbd8.appspot.com",
+
+  messagingSenderId: "881777640493",
+
+  appId: "1:881777640493:web:268a473d2739a1fbb224a4"
+
+};
     if ("serviceWorker" in navigator) {
       // Service workers are supported. Use them.
       window.addEventListener("load", function () {
